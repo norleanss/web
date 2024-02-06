@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eu">
+    <head>
+        <meta charset="UTF-8">
+        <title> Login </title>
+        <link rel="stylesheet" href="login.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <div class="pustota"> <!-- Чтобы все хранилось в одном месте -->
+            <form action="">
+                <h1> Вход </h1>
+
+                <div class="input-box"> <!-- Поле для электронной почты -->
+                    <input type="email" placeholder="Эл.почта" required>
+                    <i class='bx bx-user'></i>
+                </div>
+
+                <div class="input-box"> <!-- Поле для пароль -->
+                    <input type="password" placeholder="Пароль" required>
+                    <i class='bx bx-lock'></i>
+                </div>
+
+                <div class="remember-forgot"> <!-- Поле для запоминания человека -->
+                    <label> <input type="checkbox"> Запомнить меня </label>
+
+                    <a href="reset.html"> Забыли пароль? </a> <!-- Ссылка для восстановления пароля -->
+                 </div>
+
+                <button type="submit"  class="button"> Войти </button> <!-- Кнопка войти-->
+
+                <div class="register">  <!-- Зарегистрироваться -->
+                    <a href="signin.html"> Зарегистрироваться </a>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
